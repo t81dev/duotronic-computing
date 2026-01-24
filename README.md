@@ -8,25 +8,29 @@ It is **not a specification**.
 Formal semantics, conformance rules, and reference implementations for the
 Ternary Logic Unit (TLU) live in the companion repository:
 
-→ https://github.com/t81dev/duotronic-whitepaper
+→ [https://github.com/t81dev/duotronic-whitepaper](https://github.com/t81dev/duotronic-whitepaper)
+
+For an overview of how related repositories fit together, see:
+
+→ `docs/ecosystem.md`
 
 ## Scope
 
 This repository focuses on:
 
-- motivation and conceptual framing
-- historical analogies (e.g., FPUs, SIMD, accelerators)
-- potential application domains
-- design intuition and trade-offs
-- negative space: where ternary semantics do *not* help
+* motivation and conceptual framing
+* historical analogies (e.g., FPUs, SIMD, accelerators)
+* potential application domains
+* design intuition and trade-offs
+* negative space: where ternary semantics do *not* help
 
 No material here is normative or binding.
 
 ## Relationship to the TLU Specification
 
-- This repository **depends on** the TLU specification.
-- It does not redefine semantics, operations, or correctness criteria.
-- Any disagreement between narrative material here and the specification
+* This repository **depends on** the TLU specification.
+* It does not redefine semantics, operations, or correctness criteria.
+* Any disagreement between narrative material here and the specification
   must be resolved in favor of the specification.
 
 ## Status
