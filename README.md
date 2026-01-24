@@ -8,7 +8,7 @@ It is **not a specification**.
 Formal semantics, conformance rules, and reference implementations for the
 Ternary Logic Unit (TLU) live in the companion repository:
 
-→ https://github.com/t81dev/duotroic-whitepaper
+→ https://github.com/t81dev/duotronic-whitepaper
 
 ## Scope
 
