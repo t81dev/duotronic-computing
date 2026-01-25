@@ -1,4 +1,4 @@
-# 07-why-this-is-not-a-bet.md
+# 08-why-this-is-not-a-bet.md
 
 ## Why This Is Not a Bet
 
