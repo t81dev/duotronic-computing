@@ -60,6 +60,13 @@ Headers:
 This test is not evidence of superiority. It exists to make *semantic overhead*
 visible and measurable.
 
+### Masking semantics note
+
+`masked_neutral` intentionally conflates `zer` with “masked” during policy-aware reductions.
+This is not presented as a best practice. It exists to stress the failure mode where a single
+ternary value is asked to represent multiple meanings. Tagged-type alternatives would be the next
+step if this ambiguity proves too costly.
+
 ## Build and run
 
 From the repository root:
