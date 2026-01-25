@@ -37,3 +37,37 @@ No material here is normative or binding.
 
 This repository is exploratory by design.
 Content may evolve, be revised, or be abandoned without version guarantees.
+
+## Findings (TSL reference, v0.1)
+
+This repository includes a bounded, software-only probe (`essays/tsl_ref`) used to evaluate whether explicit ternary semantics reduce semantic indirection under constrained conditions.
+
+### What was established
+
+* **Method validity:**  
+  The hypothesis is testable with a software-first approach. Semantics can be specified, implemented, tested, and measured without hardware changes.
+
+* **Measured cost:**  
+  Explicit ternary semantics incur a **real, measurable overhead** versus conventional binary representations with flags for the tested workloads. This cost is **bounded and predictable**, not catastrophic.
+
+* **Containment holds:**  
+  Binary control semantics remain authoritative. Ternary values were kept as data only; no control-flow contamination or tooling failure occurred.
+
+* **Failure modes are real:**  
+  Masking experiments show that **overloading meaning** (e.g., treating a single value as both neutral and masked) increases ambiguity. Domains that require this distinction need tagged states rather than additional policies.
+
+### What was not established
+
+* No performance advantage was demonstrated.
+* No general recommendation or adoption path is implied.
+* No hardware justification was found.
+* No claim is made beyond the tested scopes and workloads.
+
+### Interpretation
+
+The results support a **selective, correctness-oriented** view: if ternary semantics are ever justified, it will be for **clarity under specific semantic load**, not for speed, density, or replacement of binary systems.
+
+### Status
+
+The reference probe is **sealed at v0.1**.  
+Further work would require a new, explicitly scoped investigation (e.g., tagged state types) rather than incremental extension of this probe.
