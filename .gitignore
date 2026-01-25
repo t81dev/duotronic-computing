@@ -1,0 +1,23 @@
+# CMake / build artifacts
+/build/
+/cmake-build*/
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+
+# Generated test binaries (TSL experiment)
+/essays/tsl_ref/build/
+/*.o
+/*.obj
+
+# IDE/system files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Bench outputs
+bench_reduce
+bench_reduce_baseline
