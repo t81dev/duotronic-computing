@@ -1,14 +1,3 @@
-Below is a **complete draft** of the OSI essay, written to be **descriptive, bounded, and non-advocacy**.
-It is intentionally conservative in tone, avoids prescriptions, and repeatedly reinforces containment.
-
-You can drop this directly into:
-
-```
-essays/06-duotronic-and-the-osi-model.md
-```
-
----
-
 # 06 — Duotronic Semantics and the OSI Model
 
 This essay does not propose changes to the OSI model, networking protocols, or standards.
