@@ -1,4 +1,4 @@
-# 06 — Open Questions
+# 07 — Open Questions
 
 This collection has argued for restraint: that ternary semantics, if useful at all, are useful only within narrow, well-defined boundaries. Even within those boundaries, significant questions remain unresolved.
 
