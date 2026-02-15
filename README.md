@@ -30,6 +30,25 @@ No material here is normative or binding.
 
 ---
 
+## Formal Evaluation
+
+While primarily interpretive, this repository hosts the rigorous, falsifiable
+evaluation framework used to validate or reject Duotronic claims.
+
+→ `docs/FORMAL_EVALUATION.md` (Technical Criteria)
+→ `docs/PAPER_OUTLINE.md` (Publication Structure)
+
+These documents define:
+- Testable hypotheses (H1-H4)
+- Formal semantic definitions for TLU kernels
+- Structural metrics (Branch Density, Cyclomatic Complexity)
+- Binary baseline specifications
+- Negative result scenarios
+
+All future contributions must align with these criteria.
+
+---
+
 ## Relationship to the TLU Specification
 
 - This repository **depends on** the TLU specification.  
